@@ -1,0 +1,12 @@
+{
+	"welcomeFile": "index.html",
+	"authenticationMethod": "none",
+	"sessionTimeout": 30,
+	"routes": [{
+			"source": "^/(.*)$",
+			"target": "$1",
+			"localDir": "./",
+			"cacheControl": "no-cache, no-store, must-revalidate"
+		}
+	]
+}

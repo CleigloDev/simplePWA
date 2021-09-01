@@ -1,0 +1,16 @@
+ID: simplepwa
+_schema-version: '2.1'
+version: 0.0.1
+
+modules:
+ - name: simplepwa
+   type: html5
+   path: simplepwa
+   parameters:
+      memory: 80M
+      disk-quota: 512M
+   build-parameters:
+      builder: custom
+      commands:
+        - npm install
+        - npm start
